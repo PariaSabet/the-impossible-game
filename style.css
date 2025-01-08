@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+*{
+  font-family: Montserrat, sans-serif;
+}
+
+body{
+  background-image: url('./circle-scatter-haikei.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  max-width: 100%;
+  height: 400px;
+  background-color: #d2abab;
+  margin: 0 auto;
+  border: 2px solid;
+  position: relative;
+}
+
+h1, h3 {
+  text-align:center;
+}
+.s, .p, .a, .c, .e {
+  width: 50px;
+  height: 50px;
+  background-color: #966f86;
+  position: absolute;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+}
+
+.btn{
+  text-align: center;
+  padding: 20px;
+}
+
+button{
+  border:none;
+  border-radius: 20px;
+  background-color: #966f86;
+  width: 100px;
+  height: 43px;
+  text-align:center;
+  font-weight: 600;
+  border: 2px solid #ebcbd0;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+.result {
+  text-align:center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    height: 300px;
+  }
+  .s, .p, .a, .c, .e {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+}
